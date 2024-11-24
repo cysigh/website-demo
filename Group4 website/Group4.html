@@ -1,0 +1,614 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Booktopia</title>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="Group4.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+       <nav>
+        <ul>
+            <li>
+                <div class="logo ">
+                    <img src="logo.png" alt="">
+                    <h2 class="nav-item">Booktopia</h2>
+                </div>
+            </li>
+            <li><a class="home" href="#container1"><i class='bx bxs-home-alt-2' ></i><span>Home</span> </a></li>
+            <li><a  class="home" href="#container4"><i class='bx bxs-collection' ></i><span>Collections</span></a></li>
+            <li><a  class="home" href="#container5"><i class='bx bxs-folder'></i><span>Services</span></a></li>
+            <li><a  class="home" href="#container6"><i class='bx bxs-phone-call' ></i><span>Contacts</span></a></li>
+            <li><a  class="home" href="#container7"><i class='bx bxs-info-circle'></i><span>About</span></a></li>
+        </ul>
+       </nav>
+       <div id="container1">
+            <div id="content">
+                <div id="text-container">
+                    <p class="text">Welcome to Booktopia</p>
+                 </div>
+                <p id="p1">We are delighted to have you here. Our library is a haven for book lovers, researchers, and anyone with a thirst for knowledge. Whether youre looking for the latest bestsellers, academic resources, or a quiet place to study, youll find it all here.</p>
+                <div class="search">
+                    <input type="text" placeholder="Search here...">
+                    <button>Search</button>
+                </div>  
+                <div class="slideshow-container">
+                    <img src="https://media.tenor.com/mTz7WCbH92oAAAAi/book-transparent.gif" alt="">
+                  </div>               
+                <div id="log-in-container">
+                    <a href="#formPopup"><i class='bx bxs-user'></i> <span>Log In</span> </a>
+                </div>
+            </div>
+            <div id="formPopup" class="form-popup">
+                <div class="log-container">
+                    <a href="#" class="close">&times;</a>
+                    <input type="radio" id="login-toggle" name="form-toggle" checked>
+                    <input type="radio" id="signup-toggle" name="form-toggle">
+                    <div class="toggle-buttons">
+                      <label for="login-toggle" class="toggle-btn">Login</label>
+                      <label for="signup-toggle" class="toggle-btn">Sign Up</label>
+                    </div>
+                    <div class="form-container">
+                        <h2 class="log-word">Login</h2>
+                      <div class="login-box form">
+                        <form>
+                            <div class="welcome-back">
+                                <h1>Welcome Back</h1>
+                                <p> Your next great read awaits.</p>
+                            </div>
+                          <div class="input-box">
+                            <input type="email" required>
+                            <label>Username</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="password" required>
+                            <label>Password</label>
+                          </div>
+                          <div class="input-check">
+                            <input type="checkbox" required> Remember Me?
+                            <a href="">Forgot Password</a>
+                          </div>
+                          <button type="submit" class="log-btn">Login</button>
+                        </form>
+                      </div>
+                      <div class="signup-box form">
+                        <h2 class="sign-word">Sign Up</h2>
+                        <div class="welcome-sign">
+                            <h1>Welcome at Booktopia</h1>
+                            <p>Begin your journey through a world of amazing books.</p>
+                        </div>
+                        <div class="sign-scroll">
+                        <form>
+                          <div class="input-box">
+                            <input type="text" required>
+                            <label>Full Name</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="text" required>
+                            <label>Student Number</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="text" required>
+                            <label>Contact Number</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="text" required>
+                            <label>Birthday</label>
+                          </div>
+                          <div class="input-box gender-box">
+                            <select required>
+                              <option value="" disabled selected></option>
+                              <option value="male">Male</option>
+                              <option value="female">Female</option>
+                              <option value="other">Other</option>
+                              <option value="prefer-not-say">Prefer not to say</option>
+                            </select>
+                            <label>Gender</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="email" required>
+                            <label>Email Address</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="text" required>
+                            <label>Username</label>
+                          </div>
+                          <div class="input-box">
+                            <input type="password" required>
+                            <label>Password</label>
+                          </div>
+                          
+                        </form>
+                        </div>
+                        <button type="submit" class="log-btn" id="sign-btn">Sign Up</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            </div>
+        </div> 
+        <div id="container2">
+            <div class="title-stream">
+                <a href="" class="download"><h2>Stream and Download</h2></a>
+            </div>
+            <div id="stream">
+                <div id="stream-item">
+                    <a href=""><img class="imgbig" src="video.png" alt=""></a>
+                    <a href=""><img class="imgbig3" src="audio.png" alt=""></a>
+                    <a href=""><img class="imgbig" src="music.png" alt=""></a>
+                    <a href=""><img class="imgbig2" src="bbook.png" alt=""></a>
+                </div>
+                <div id="item-name">
+                    <span>Videos</span>
+                    <span>Audio Books</span>
+                    <span>Music</span>
+                    <span>Books</span>
+                </div>
+            </div>
+            <div id="trends">
+                <h2>Newest and Trending</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 1.png" alt="no image"> <br>
+                                <span>The Journey Within</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a>
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 2.png" alt="no image"> <br>
+                                <span>Uncharted Road to Self Directory</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 3.png" alt="no image"> <br>
+                                <span>From the Maze to Mistery</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 4.png" alt="no image"> <br>
+                                <span>Finance Basics</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a>
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 5.png" alt="no image"> <br>
+                                <span>Innovation Ignition</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 5.png" alt="no image"> <br>
+                                <span>Innovation Ignition</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div id="container4">
+            <div class="title-stream">
+                <a href="" class="download"><h2>Booktopia Collections</h2></a>
+            </div>
+            <div class="collection-container">
+                <h1 class="section">Section 1</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 1.png" alt="no image"> <br>
+                                <span>The Journey Within</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a>
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 2.png" alt="no image"> <br>
+                                <span>Uncharted Road to Self Directory</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 3.png" alt="no image"> <br>
+                                <span>From the Maze to Mistery</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 4.png" alt="no image"> <br>
+                                <span>Finance Basics</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a>
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 5.png" alt="no image"> <br>
+                                <span>Innovation Ignition</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 5.png" alt="no image"> <br>
+                                <span>Innovation Ignition</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-container">
+                <h1 class="section">Section 2</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 7.png" alt="no image"> <br>
+                                <span>Means of Transport</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 8.png" alt="no image"> <br>
+                                <span>Time Management</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div><div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 9.png" alt="no image"> <br>
+                                <span>Art on the Plate</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div><div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 10.png" alt="no image"> <br>
+                                <span>Biology</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div><div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 11.png" alt="no image"> <br>
+                                <span>Mathematics</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div><div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 12.png" alt="no image"> <br>
+                                <span>Science Notebook</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-container">
+                <h1 class="section">Section 3</h1>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 13.png" alt="no image"> <br>
+                                <span>Artificial Intelligence for Everyone</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 14.png" alt="no image"> <br>
+                                <span>The Secret of Machine Learning</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 15.png" alt="no image"> <br>
+                                <span>Mastering Communication Skills</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 16.png" alt="no image">
+                                <span>Thoroughly Feel The Programming Language</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 16.png" alt="no image">
+                                <span>Thoroughly Feel The Programming Language</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img class="book-image" src="book cover 16.png" alt="no image">
+                                <span>Thoroughly Feel The Programming Language</span>
+                            </div>
+                            <div class="card-back"> 
+                                <a class="read-link" href="">Read</a> 
+                                <a class="read-link" href="">Download</a>
+                                <a class="read-link" href="">Add to Bookmarks</a>     
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="title-stream" id="book-service">
+            <a href="" class="download"><h2>Booktopia Services</h2></a>
+        </div>
+        <div id="container5">
+            <div id="service-container">
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <img src="borrow.png" alt="">
+                    <div class="info">
+                        <h1>Borrow, Renew, Return Policies</h1>
+                        <p>Explore our straightforward borrowing, renewing, and returning policies to ensure you have uninterrupted access to all resources.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="workshop.png" alt="">
+                    <div class="info">
+                        <h1>Instruction and Workshops</h1>
+                        <p>Enhance your skills with our range of educational workshops and tailored instruction sessions on research, technology, and library tools.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="laison.jpg" alt="">
+                    <div class="info">
+                        <h1>Library Liaisons</h1>
+                        <p>Our specialized library liaisons are here to assist you with research support, resource recommendations, and subject expertise.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <img src="copyright.png" alt="">
+                    <div class="info">
+                        <h1>Copyright and Digitization</h1>
+                        <p>We offer guidance on copyright issues and digitization services to ensure proper use and preservation of intellectual property.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="research.png" alt="">
+                    <div class="info">
+                        <h1>Research Data Management Services</h1>
+                        <p>We provide comprehensive research data management support, including guidance on data organization, sharing, and long-term storage.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="disability.png" alt="">
+                    <div class="info">
+                        <h1>Disability Services</h1>
+                        <p>We are committed to providing accessible services and resources to all users, offering support tailored to diverse needs.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="title-stream" id="book-contact">
+            <a href="" class="download"><h2>Contact Us</h2></a>
+        </div>
+        <div id="container6">
+            <div class="phone">
+                <img src="headset-solid.svg" alt="" width="110px">
+                <p id="p11">BY PHONE</p>
+                <p id="p11-1">0912-345-6789</p>
+            </div>
+           <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"> <div class="email">
+               <img src="envelope-solid.svg" alt="" width="110px">
+                <p id="p2">VIA EMAIL</p>
+                <p id="p2-1">booktopia@library.com</p>
+            </div> </a>
+            <div class="address">
+                <img src="map-pin-solid.svg" alt="" width="100px">
+                <div class="address2">
+                  <p id="p3">OUR LOCATION</p>
+                 <p id="p3-1"> Brgy. Guinhawa, City of Malolos, 3000 Bulacan</p>
+                </div>    
+            </div>
+            <div class="quote">
+                <p id="qt">"When in doubt, go to the library"</p>
+                <p id="p4">Need assistance?</p>
+    
+              <label id="bt11" for="switch"> Send Message Here</label> 
+            </div>
+            <div class="message2">
+                <input type="checkbox" id="switch"/>
+                <div class="type1">
+                    <form action="contact.html">
+                        <p id="write">Write your concern/s</p>
+                        <input type="text" id="inEmail" required placeholder="Name">
+                        <input type="email" name="" id="inEmail" required placeholder="Email">
+                        <textarea name="" placeholder="Message Here" required id="txtMessage"></textarea>
+                        <button id="send"><img id="svg-icon" src="paper-plane-solid.svg" alt="" width="15px">Send</button><br/>
+                        <label id="close2" for="switch" style="cursor:pointer;">Close</label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="title-stream" id="book-about">
+            <a href="" class="download"><h2>About Booktopia</h2></a>
+        </div>
+        <div id="container7">
+            <div class="content">
+            <div id="about-us">
+                <p>Welcome to Booktopia, your gateway to a world of knowledge and imagination. Our library is dedicated to providing a diverse collection of books, resources, and services to meet the needs of our community.</p>
+                <p>At Booktopia, we believe in the power of reading and learning. Our mission is to foster a love for literature, support lifelong learning, and promote intellectual curiosity. Whether you are a student, a researcher, or simply a book lover, we are here to assist you in your journey.</p>
+                <p>Explore our vast collection, attend engaging workshops, or take advantage of our digital resources. Join us in celebrating the joy of reading and discovering new ideas!</p>
+                <p>Visit us today and experience the magic of Booktopia!</p>
+                </div>
+            <img id="about-img" src="bg2.jpg" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>Booktopia</h3>
+                <p>Your Gateway to Infinite Knowledge and Imagination</p>
+                <ul class="socials">
+                    <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+                    <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+                    <li><a href=""><i class='bx bxl-instagram-alt'></i></a></li>
+                    <li><a href=""><i class='bx bxl-google-plus-circle' ></i></i></a></li>
+                    <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy;2024 Booktopia designed by <span>Group 4</span></p>
+                <div class="fb-links">
+                    <a href="https://www.facebook.com/cyrus.delacruz.1238" target="_blank"><img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/458311731_3947297995499693_6439316607246925070_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE40V_HxNDes7ua5I3P2HSfvQYZCxb8EAy9BhkLFvwQDKsUsPZmWlgfY8oYNYQO0hl2KNWOYfq2M8-Ivle0ZQXv&_nc_ohc=pfRjbUrhlLsQ7kNvgHEReU9&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&_nc_gid=AxdKbmF973hLy3oux-IWU_4&oh=00_AYCXpSQ9D3d7G1fMsGbTm6bsqENxbLhShsWvVHcW2IHMeQ&oe=67435B6D" alt="">Cyrus</a>
+                    <a href="https://www.facebook.com/andreigapuz20" target="_blank"><img src="https://scontent.fmnl8-2.fna.fbcdn.net/v/t39.30808-1/435107373_1506772643234957_1244340090206172362_n.jpg?stp=c0.0.768.768a_dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeFASsk37mE49SkvWglsH_bwpBS9ahGzAymkFL1qEbMDKbJrZ1Irkd8PQCKlVAanu3MxsU8NrNsTMBHsY9LZnIl4&_nc_ohc=a9H55GUDbt4Q7kNvgEENfYx&_nc_zt=24&_nc_ht=scontent.fmnl8-2.fna&_nc_gid=AfRPIkdqDYQktekxHk6yF2j&oh=00_AYAw91FiaB60yEqMA2DOZCU0cyzctb4bd_DQk2Ni8CAvbg&oe=67437640" alt="">Andrei</a>
+                    <a href="https://www.facebook.com/angela.licyayo" target="_blank"><img src="https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-6/353052892_6466968016703547_6859876961931504036_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFOjpE0YvLp8tSRD-3D9-VvgwOjHdgWS4uDA6Md2BZLi4OE25vKHscxqA6OCd4HKhP5OWzScPG9cN9DHascbPAJ&_nc_ohc=bqqAGGeBDJoQ7kNvgHU2Ehv&_nc_zt=23&_nc_ht=scontent.fmnl8-6.fna&_nc_gid=Ai5gCANDinCWtQIDQiPUu5a&oh=00_AYDhZAJ5tJZVi28qrbABheO6ofoHUwJPyazxQxB-zukgCg&oe=6743803E" alt="">Angela</a>
+                    <a href="https://www.facebook.com/ronallykate.villaroman" target="_blank"><img src="https://scontent.fmnl9-6.fna.fbcdn.net/v/t39.30808-6/361571094_2666427363514359_3364754510780223018_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFDua7WJnPqIfoq-oG5rXzkb7TwuAni9f9vtPC4CeL1_4AimXGo-1FgJCKd6HZh4ro08DsoOQjHBRm-zqwD5n7B&_nc_ohc=KQIRlzQ0sa8Q7kNvgH3iHFW&_nc_zt=23&_nc_ht=scontent.fmnl9-6.fna&_nc_gid=AfZrIX2WlRYVAAcbRSn5JJy&oh=00_AYBI-N2lyjkS4udSgkkZta0lpdzvOOfrFdG8xrnrTmtDVw&oe=6743520F" alt="">Ronally</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
